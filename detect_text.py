@@ -14,6 +14,7 @@ def detect_text(path):
     response = client.text_detection(image=image)
     texts = response.text_annotations
     print('Texts:')
+print("try")
 
     words=[]
     for text in texts:
